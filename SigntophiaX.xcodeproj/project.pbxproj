@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0053489407C9FAE800B1C982 /* bubbles.c in Sources */ = {isa = PBXBuildFile; fileRef = 0053489307C9FAE700B1C982 /* bubbles.c */; };
+		0053489A07C9FB0200B1C982 /* euskal_demo.c in Sources */ = {isa = PBXBuildFile; fileRef = 0053489607C9FB0200B1C982 /* euskal_demo.c */; };
+		0053489B07C9FB0200B1C982 /* euskal_demo.h in Resources */ = {isa = PBXBuildFile; fileRef = 0053489707C9FB0200B1C982 /* euskal_demo.h */; };
+		0053489C07C9FB0200B1C982 /* fade_intro.c in Sources */ = {isa = PBXBuildFile; fileRef = 0053489807C9FB0200B1C982 /* fade_intro.c */; };
+		0053489D07C9FB0200B1C982 /* fade_outro.c in Sources */ = {isa = PBXBuildFile; fileRef = 0053489907C9FB0200B1C982 /* fade_outro.c */; };
+		005348A407C9FB1100B1C982 /* music.c in Sources */ = {isa = PBXBuildFile; fileRef = 0053489E07C9FB1100B1C982 /* music.c */; };
+		005348A507C9FB1100B1C982 /* part0.c in Sources */ = {isa = PBXBuildFile; fileRef = 0053489F07C9FB1100B1C982 /* part0.c */; };
+		005348A607C9FB1100B1C982 /* part1.c in Sources */ = {isa = PBXBuildFile; fileRef = 005348A007C9FB1100B1C982 /* part1.c */; };
+		005348A707C9FB1100B1C982 /* part2.c in Sources */ = {isa = PBXBuildFile; fileRef = 005348A107C9FB1100B1C982 /* part2.c */; };
+		005348A807C9FB1100B1C982 /* part3.c in Sources */ = {isa = PBXBuildFile; fileRef = 005348A207C9FB1100B1C982 /* part3.c */; };
+		005348A907C9FB1100B1C982 /* part3.h in Resources */ = {isa = PBXBuildFile; fileRef = 005348A307C9FB1100B1C982 /* part3.h */; };
+		005348AF07C9FF5700B1C982 /* Controller.h in Resources */ = {isa = PBXBuildFile; fileRef = 005348AE07C9FF5700B1C982 /* Controller.h */; };
+		005348B507C9FF7700B1C982 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 005348B407C9FF7700B1C982 /* Controller.m */; };
+		005348D307CA038500B1C982 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005348D207CA038500B1C982 /* AudioUnit.framework */; };
+		005348E607CA039F00B1C982 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005348E507CA039F00B1C982 /* OpenGL.framework */; };
+		005349C907CA081B00B1C982 /* firmas_data.h in Resources */ = {isa = PBXBuildFile; fileRef = 005349C807CA081B00B1C982 /* firmas_data.h */; };
+		00534A2C07CA097600B1C982 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00534A2B07CA097600B1C982 /* Carbon.framework */; };
+		0092977F07CBDDB500B61BC9 /* tex.c in Sources */ = {isa = PBXBuildFile; fileRef = 0092977E07CBDDB500B61BC9 /* tex.c */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4A9504CCFFE6A4B311CA0CBA /* Development */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = /Users/Bad_CRC/Proyectos/KOSX/include;
+				LIBRARY_SEARCH_PATHS = /Users/Bad_CRC/Proyectos/KOSX/build;
+				OTHER_LDFLAGS = (
+					"-lKOSX",
+					"-lz",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		4A9504CDFFE6A4B311CA0CBA /* Deployment */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXFileReference section */
+		0053489307C9FAE700B1C982 /* bubbles.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = bubbles.c; sourceTree = "<group>"; };
+		0053489607C9FB0200B1C982 /* euskal_demo.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = euskal_demo.c; sourceTree = "<group>"; };
+		0053489707C9FB0200B1C982 /* euskal_demo.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = euskal_demo.h; sourceTree = "<group>"; };
+		0053489807C9FB0200B1C982 /* fade_intro.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = fade_intro.c; sourceTree = "<group>"; };
+		0053489907C9FB0200B1C982 /* fade_outro.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = fade_outro.c; sourceTree = "<group>"; };
+		0053489E07C9FB1100B1C982 /* music.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = music.c; sourceTree = "<group>"; };
+		0053489F07C9FB1100B1C982 /* part0.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = part0.c; sourceTree = "<group>"; };
+		005348A007C9FB1100B1C982 /* part1.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = part1.c; sourceTree = "<group>"; };
+		005348A107C9FB1100B1C982 /* part2.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = part2.c; sourceTree = "<group>"; };
+		005348A207C9FB1100B1C982 /* part3.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = part3.c; sourceTree = "<group>"; };
+		005348A307C9FB1100B1C982 /* part3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = part3.h; sourceTree = "<group>"; };
+		005348AE07C9FF5700B1C982 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		005348B407C9FF7700B1C982 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		005348D207CA038500B1C982 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		005348E507CA039F00B1C982 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		005349C807CA081B00B1C982 /* firmas_data.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = firmas_data.h; sourceTree = "<group>"; };
+		00534A2B07CA097600B1C982 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		0092977E07CBDDB500B61BC9 /* tex.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = tex.c; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* SigntophiaX_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigntophiaX_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* SigntophiaX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SigntophiaX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				005348D307CA038500B1C982 /* AudioUnit.framework in Frameworks */,
+				005348E607CA039F00B1C982 /* OpenGL.framework in Frameworks */,
+				00534A2C07CA097600B1C982 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00CAE01B07CA0B9200FBF7B7 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				0092977E07CBDDB500B61BC9 /* tex.c */,
+				0053489307C9FAE700B1C982 /* bubbles.c */,
+				0053489607C9FB0200B1C982 /* euskal_demo.c */,
+				0053489707C9FB0200B1C982 /* euskal_demo.h */,
+				0053489807C9FB0200B1C982 /* fade_intro.c */,
+				0053489907C9FB0200B1C982 /* fade_outro.c */,
+				005349C807CA081B00B1C982 /* firmas_data.h */,
+				0053489E07C9FB1100B1C982 /* music.c */,
+				0053489F07C9FB1100B1C982 /* part0.c */,
+				005348A007C9FB1100B1C982 /* part1.c */,
+				005348A107C9FB1100B1C982 /* part2.c */,
+				005348A207C9FB1100B1C982 /* part3.c */,
+				005348A307C9FB1100B1C982 /* part3.h */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				005348B407C9FF7700B1C982 /* Controller.m */,
+				005348AE07C9FF5700B1C982 /* Controller.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				005348D207CA038500B1C982 /* AudioUnit.framework */,
+				005348E507CA039F00B1C982 /* OpenGL.framework */,
+				00534A2B07CA097600B1C982 /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* SigntophiaX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* SigntophiaX */ = {
+			isa = PBXGroup;
+			children = (
+				00CAE01B07CA0B9200FBF7B7 /* Code */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = SigntophiaX;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SigntophiaX_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* SigntophiaX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0091CEDE098D8ACF00DF037A /* Build configuration list for PBXNativeTarget "SigntophiaX" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SigntophiaX_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SigntophiaX;
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			name = SigntophiaX;
+			productInstallPath = "$(HOME)/Applications";
+			productName = SigntophiaX;
+			productReference = 8D1107320486CEB800E47090 /* SigntophiaX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0091CEE2098D8ACF00DF037A /* Build configuration list for PBXProject "SigntophiaX" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4A9504CCFFE6A4B311CA0CBA /* Development */,
+				4A9504CDFFE6A4B311CA0CBA /* Deployment */,
+			);
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* SigntophiaX */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* SigntophiaX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				0053489B07C9FB0200B1C982 /* euskal_demo.h in Resources */,
+				005348A907C9FB1100B1C982 /* part3.h in Resources */,
+				005348AF07C9FF5700B1C982 /* Controller.h in Resources */,
+				005349C907CA081B00B1C982 /* firmas_data.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				0053489407C9FAE800B1C982 /* bubbles.c in Sources */,
+				0053489A07C9FB0200B1C982 /* euskal_demo.c in Sources */,
+				0053489C07C9FB0200B1C982 /* fade_intro.c in Sources */,
+				0053489D07C9FB0200B1C982 /* fade_outro.c in Sources */,
+				005348A407C9FB1100B1C982 /* music.c in Sources */,
+				005348A507C9FB1100B1C982 /* part0.c in Sources */,
+				005348A607C9FB1100B1C982 /* part1.c in Sources */,
+				005348A707C9FB1100B1C982 /* part2.c in Sources */,
+				005348A807C9FB1100B1C982 /* part3.c in Sources */,
+				005348B507C9FF7700B1C982 /* Controller.m in Sources */,
+				0092977F07CBDDB500B61BC9 /* tex.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0091CEDF098D8ACF00DF037A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SigntophiaX_Prefix.pch;
+				HEADER_SEARCH_PATHS = /Users/Bad_CRC/Proyectos/KOSX/include;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = /Users/Bad_CRC/Proyectos/KOSX/build;
+				OTHER_LDFLAGS = (
+					"-lKOSX",
+					"-lz",
+				);
+				PRODUCT_NAME = SigntophiaX;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		0091CEE0098D8ACF00DF037A /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SigntophiaX_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SigntophiaX;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		0091CEE1098D8ACF00DF037A /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SigntophiaX_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SigntophiaX;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		0091CEE3098D8ACF00DF037A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		0091CEE4098D8ACF00DF037A /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		0091CEE5098D8ACF00DF037A /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0091CEDE098D8ACF00DF037A /* Build configuration list for PBXNativeTarget "SigntophiaX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0091CEDF098D8ACF00DF037A /* Development */,
+				0091CEE0098D8ACF00DF037A /* Deployment */,
+				0091CEE1098D8ACF00DF037A /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		0091CEE2098D8ACF00DF037A /* Build configuration list for PBXProject "SigntophiaX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0091CEE3098D8ACF00DF037A /* Development */,
+				0091CEE4098D8ACF00DF037A /* Deployment */,
+				0091CEE5098D8ACF00DF037A /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
